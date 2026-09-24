@@ -7,7 +7,7 @@ or network dependency. The same inputs produce the same text in Rust,
 JavaScript, Python, and Typst.
 
 ```js
-import { formatNumber } from '@corbet-foss/cnumber';
+import { formatNumber } from '@corbet-labs/cnumber';
 
 formatNumber('de-ch', '1234567.89', true, 'amtlich');
 // 1'234'567,89
@@ -20,13 +20,13 @@ formatNumber('de-ch', '1234567.89', true, 'amtlich');
 | Rust / Cargo | `cargo add cnumber` |
 | Python / pip | `python -m pip install cnumber` |
 | Python / uv | `uv add cnumber` |
-| Node.js / npm | `npm install @corbet-foss/cnumber` |
-| pnpm | `pnpm add @corbet-foss/cnumber` |
-| Yarn | `yarn add @corbet-foss/cnumber` |
-| Bun | `bun add @corbet-foss/cnumber` |
-| Deno | `deno add npm:@corbet-foss/cnumber` |
+| Node.js / npm | `npm install @corbet-labs/cnumber` |
+| pnpm | `pnpm add @corbet-labs/cnumber` |
+| Yarn | `yarn add @corbet-labs/cnumber` |
+| Bun | `bun add @corbet-labs/cnumber` |
+| Deno | `deno add npm:@corbet-labs/cnumber` |
 
-The 0.1.0 release line is published to registries; the
+The 0.1.1 release line is published to registries; the
 commands above resolve once it is. Python requires 3.10+, Node.js 20+.
 
 ## Canonical-input contract
@@ -138,16 +138,16 @@ for generation, verification, and publication commands.
 
 ## License
 
-Copyright 2026 Julian Y. Richard Corbet. The 0.1.0 release line is licensed
+Copyright 2026 Julian Y. Richard Corbet. The 0.1.1 release line is licensed
 under [LGPL-3.0-only](https://github.com/corbet-foss/cnumber/blob/main/LICENSES/LGPL-3.0-only.txt)
-[WITH LGPL-3.0-linking-exception](https://github.com/corbet-foss/cnumber/blob/main/LICENSES/LGPL-3.0-only%20WITH%20LGPL-3.0-linking-exception.txt),
+[WITH LGPL-3.0-linking-exception](https://github.com/corbet-foss/cnumber/blob/main/LICENSES/LGPL-3.0-linking-exception.txt),
 with the incorporated [GPL version 3](https://github.com/corbet-foss/cnumber/blob/main/LICENSES/GPL-3.0-only.txt).
 Combined works may link statically or dynamically without relinking duties;
 library modifications stay LGPL. Applications can use a different license
 subject to the LGPL's conditions.
 Previously released and already prepared distributions retain their original
 grants. The installation examples above refer to those available releases;
-0.1.0 is published to registries.
+0.1.1 is published to registries.
 
 See the [licensing notes](https://github.com/corbet-foss/cnumber/blob/main/LICENSE.md) for distribution conditions and retained notices.
 Contributions are subject to the [Contributor License Agreement](CLA.md).
