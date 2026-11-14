@@ -4,7 +4,8 @@ version = "0.1.1"
 edition = "2024"
 description = "Locale-correct number formatting for formal correspondence"
 license = "LGPL-3.0-only WITH LGPL-3.0-linking-exception"
-repository = "https://github.com/corbet-foss/cnumber"
+repository = "https://git.corbet.ch/corbet-libre/cnumber"
+homepage = "https://git.corbet.ch/corbet-libre/cnumber"
 
 documentation = "https://docs.rs/cnumber"
 keywords = ["i18n", "correspondence", "locale"]
